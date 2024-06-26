@@ -1,5 +1,6 @@
 from datetime import datetime
 
+
 def is_date_within_range(event_date: str, start_date: str, end_date: str) -> bool:
     """
     Check if an event date falls within a specified date range.

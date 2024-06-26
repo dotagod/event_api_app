@@ -8,6 +8,7 @@ from app.services.redis_service import RedisService, get_redis_service
 from app.models import Event
 from app.utils.date_utils import is_date_within_range
 
+
 class EventService:
     """
     Service for handling event-related operations, including fetching events from an API
@@ -78,6 +79,7 @@ class EventService:
             if is_date_within_range(event["event_start_date"], start_date, end_date)
         ]
         return filtered_events
+
 
 def get_event_service(redis_service: RedisService = Depends(get_redis_service)) -> EventService:
     """

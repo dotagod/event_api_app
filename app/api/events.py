@@ -6,6 +6,7 @@ from app.api.schemas import EventResponse
 
 router = APIRouter()
 
+
 @router.get("/events", response_model=EventResponse)
 def get_events(
     starts_at: str = Query("2021-07-30T21:00:01", description="Start date in ISO format"),

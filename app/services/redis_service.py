@@ -1,6 +1,7 @@
 import redis
 from fastapi import Depends
 
+
 class RedisService:
     """
     A service for interacting with a Redis data store.
@@ -49,6 +50,7 @@ class RedisService:
             key (str): The key to delete from Redis.
         """
         self.client.delete(key)
+
 
 def get_redis_service() -> RedisService:
     """
