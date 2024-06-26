@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+requests
+xmltodict
+pydantic
+redis
+aiohttp
+pytest
+aioredis
+flake8
+httpx
