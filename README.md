@@ -11,24 +11,24 @@ This project provides an API endpoint that fetches event data from an external X
 
 ## Directory Structure
 
-├── app
-│ ├── api
-│ │ ├── events.py
-│ │ ├── init.py
-│ ├── models
-│ │ ├── event.py
-│ │ ├── init.py
-│ ├── services
-│ │ ├── event_service.py
-│ │ ├── redis_service.py
-│ │ ├── init.py
-│ ├── main.py
-├── tests
-│ ├── test_main.py
-├── Dockerfile
-├── docker-compose.yml
-├── Makefile
-└── README.md
+├── app  
+│ ├── api  
+│ │ ├── events.py  
+│ │ ├── init.py  
+│ ├── models  
+│ │ ├── event.py  
+│ │ ├── init.py  
+│ ├── services  
+│ │ ├── event_service.py  
+│ │ ├── redis_service.py  
+│ │ ├── init.py  
+│ ├── main.py  
+├── tests  
+│ ├── test_main.py  
+├── Dockerfile  
+├── docker-compose.yml  
+├── Makefile  
+└── README.md  
 
 ## Makefile Commands
 
