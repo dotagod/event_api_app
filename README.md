@@ -49,12 +49,12 @@ The Makefile provides several commands to manage the project:
 
 If you prefer to use Docker commands directly, you can perform the same actions as the Makefile commands:
 
-  ```sh
+```sh
   docker-compose build
   docker-compose up -d
   docker-compose down
   docker-compose down --rmi all --volumes --remove-orphans
-
+```
 
 ## Swagger API Documentation
 
